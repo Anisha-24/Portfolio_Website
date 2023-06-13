@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anisha - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        height: 80px;
+        background-color: rgb(6, 6, 50);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(116, 66, 162);
+        font-size: 1.1rem;
+      }
+
+      main hr {
+        border: 0;
+        background: rgb(116, 66, 162);
+        height: 1.5px;
+        margin: 0px 80px;
+        margin-bottom: 50px;
+      }
+
+      .left {
+        font-size: 1.6rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+      }
+
+      .firstSection > div {
+        width: 40%;
+      }
+
+      .leftSection {
+        font-size: 3rem;
+        margin-left: 40px;
+      }
+
+      .rightSection img {
+        width: 80%;
+        margin: 50px 0;
+      }
+
+      .purple {
+        color: rgb(116, 66, 162);
+      }
+
+      .text-gray{
+        color: gray;
+        font-size: smaller;
+      }
+
+      .year-gray{
+        font-family: "Poppins", sans-serif;
+        color: gray;
+        font-size: smaller;
+      }
+
+      #element {
+        color: rgb(116, 66, 162);
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+      }
+
+      .secondSection h1{
+        font-family: "Poppins", sans-serif;
+        font-size: 2rem;        
+      }
+
+      .secondSection div{        
+        background-color: rgba(92, 50, 92, 0.235);
+        margin: 50px 0;
+        padding: 15px;
+      }
+
+      .secondSection div h3{
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 15px;
+      }
+
+      .secondSection div ul{
+        font-family: "Poppins", sans-serif;
+        list-style: none;
+      }
+
+      .logo{
+        width: 70px;
+      }
+
+      footer{
+        background-color: rgb(34 34 53);
+        height: 235px;
+      }
+
+      .footer{
+        display: flex;
+        padding: 23px 150px;
+      }
+
+
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Anisha's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, I am <span class="purple"> Anisha </span>
+          <div>and I have passionately</div>
+          <!-- <div>Software Developer</div>  -->
+          <div>worked in domains like</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="dev.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="Exp 1">
+          <img class="logo" src="hrc.png" alt=""><h3>High Radius Corportaion</h2>
+            <span class="text-gray">May'23-Jun'23</span>
+            <p>
+              <ul>
+            <li>Tech Intern</li>
+            <li>Remote</li>
+            <li>Worked under the domain of ML , backend in Java, JDBC, Servelets, MySql, React.</li>
+            <li>Full-Stack Project</li>
+            </ul>
+            </p>
+
+        </div>
+
+        <div class="Exp 1">
+
+          <img class="logo" src="tata.png" alt="">
+          <h3>Tata Steel Pvt. Ltd.</h2>
+            <span class="text-gray">May'23-Jun'23</span>
+              <p>
+              <ul>
+            <li>Tech Intern</li>
+            <li>Remote</li>
+            <li>Worked under the domain of Java, SpringBoot, MongoDb. Worked on a project that involved working on CRUD operations and various other functionalities of Spring and MongoDb</li>
+            <li>Java Project</li>
+            </ul>
+            </p>
+
+        </div>
+
+        <div class="Exp 1">
+
+          <img class="logo" src="salesforce.png" alt="">
+          <h3>Salesforce via SmartInternz</h2>
+            <span class="year-gray">May'23-Jul'23</span>
+              <p>
+              <ul>
+            <li>Intern</li>
+            <li>Remote</li>
+            <li>Hands on experience on the working of Salesforce developer tools.</li>
+            <li>Self-Paced virtual internship program</li>
+            </ul>
+            </p>
+
+        </div>
+      </section>
+
+      <hr>
+    </main>
+
+    <footer>
+      <div class="flex">
+        <div class="footer">
+        <div class="footer-first">
+          <h3>Anisha's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+          </ul>
+          
+        </div>
+        <div class="footer-third">
+
+        </div>
+        <div class="footer-fourth">
+
+        </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Java",
+          "Python",
+          "Spring",
+          "ML",
+          "Web",
+          "Backend",
+          "MongoDb",
+          "Android",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
